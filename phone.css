@@ -1,0 +1,263 @@
+.popUp1 {
+    transform: scale(1);
+}
+
+.popup_container1 {
+    height: 100%;
+    width: 320px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transform: scale(0);
+    position: absolute;
+    top: 0%;
+    left: 3%;
+
+}
+
+.pop_mini_container1 {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    border: var(--border-outline);
+    box-shadow: var(--border-color);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* background-color: #00181b; */
+    backdrop-filter: blur(20px);
+
+}
+
+.top1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--secondary-color);
+}
+
+.top1 h1 {
+    margin: 10px 0;
+
+    margin-right: 20px;
+}
+
+.top1 .topBtn {
+
+    position: sticky;
+    bottom: 1%;
+    right: 2%;
+}
+
+.main_content1 {
+    /* border: 1px solid pink; */
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* height: 50%; */
+    background-color: var(--background-image);
+
+}
+
+.first_data1 {
+    width: 100%;
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+    gap: 3%;
+    height: 50%;
+}
+
+.first_data1 .video1 {
+    width: 100%;
+
+}
+
+.first_data1 .video1 video {
+    width: 100%;
+    /* height: 100%;   */
+}
+
+.first_data1 .video1 a {
+    margin: 10px 0;
+
+    color: var(--pimary-color);
+}
+
+.videoInfo1 {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.videoInfo1 .paragraph1 {
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+.secondData1 {
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
+    gap: 2%;
+}
+
+.secondData1 .video1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.secondData1 .video1 video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.secondData1 .video1 a {
+    margin: 10px 0;
+    color: var(--pimary-color);
+
+}
+
+.videoInfo1 .paragraph1 {
+    width: 100%;
+
+}
+
+.paragraph1 p {
+    width: 100%;
+    padding: 5px;
+    line-height: 25px;
+    font-family: 'Glory', sans-serif;
+    font-size: large;
+
+}
+
+.popUp1 {
+    transform: scale(1);
+    /* display: block; */
+}
+
+.top1 #xbar1 {
+    position: absolute;
+    top: 2.5%;
+    right: 10%;
+    font-size: 25px;
+
+    z-index: 10;
+}
+
+@media screen and (max-width:270px) {
+    .right_container {
+        display: none;
+    }
+
+    .popup_container1 {
+        left: 0%;
+        width: 100%;
+    }
+
+    .top1 h1 {
+        margin-right: 30px;
+    }
+
+    .top1 #xbar1 {
+        font-size: 20px;
+        top: 2%;
+
+    }
+
+    .video1 a {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:319px) {
+    .right_container {
+        display: none;
+    }
+
+    .popup_container1 {
+        left: 0%;
+        width: 100%;
+    }
+
+    .top1 h1 {
+        margin-right: 30px;
+    }
+
+    .top1 #xbar1 {
+        font-size: 20px;
+        top: 2%;
+
+    }
+
+    .video1 a {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:358px) {
+    .right_container {
+        display: none;
+    }
+
+    .left_container {
+        width: 320px;
+    }
+
+    .popup_container1 {
+        width: 100vw;
+        left: 0;
+    }
+}
+
+@media screen and (min-width:359px) and (max-width:480px) {
+    .right_container {
+        display: none;
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left_container {
+        width: 100%;
+
+    }
+
+    .popup_container1 {
+        width: 100%;
+        left: 0%;
+        backdrop-filter: blur(10px);
+    }
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1300px) {
+    .top1 #xbar1 {
+        top: 1.9%;
+    }
+
+    .popup_container1 {
+        width: 26%;
+        left: .3%;
+        backdrop-filter: blur(10px);
+    }
+}
+
