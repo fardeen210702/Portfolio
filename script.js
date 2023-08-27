@@ -76,7 +76,7 @@ popUPContainer.innerHTML=`    <div class="pop_mini_container">
                         great expierence... and learnt new things while doing this project .
                         still much better could have been done to improve this clone .
                         For now it is not responsive but in future I'll make sure to buy some time and
-                        make it responsive..
+                        make it responsive..(NOTe:- Not Responsive...)
                     </p>
                 </div>
             </div>
