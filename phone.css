@@ -1,31 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Barlow:wght@500&family=Glory&family=Lobster&family=Maven+Pro:wght@500&family=Montserrat:wght@100&family=Phudu:wght@500&family=Roboto:wght@300&display=swap');
+
 .popUp1 {
     transform: scale(1);
 }
 
 .popup_container1 {
     height: 100%;
-    width: 320px;
+    width: 100%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    padding: 10px;
+    /* padding: 10px; */
     transform: scale(0);
     position: absolute;
     top: 0%;
-    left: 3%;
+    left: 0%;
 
 }
 
 .pop_mini_container1 {
     width: 100%;
-    max-width: 320px;
+    /* max-width: 320px; */
     border-radius: 10px;
     border: var(--border-outline);
     box-shadow: var(--border-color);
     overflow-y: scroll;
     scrollbar-width: none;
-    /* background-color: #00181b; */
-    backdrop-filter: blur(20px);
+    background-color: #00181b;
 
 }
 
@@ -34,13 +35,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     color: var(--secondary-color);
 }
 
 .top1 h1 {
     margin: 10px 0;
-
+    /* border: 1px solid red; */
     margin-right: 20px;
 }
 
@@ -86,6 +88,7 @@
 
 .first_data1 .video1 a {
     margin: 10px 0;
+    font-size: 15px;
 
     color: var(--pimary-color);
 }
@@ -127,6 +130,8 @@
 
 .secondData1 .video1 a {
     margin: 10px 0;
+    font-size: 15px;
+
     color: var(--pimary-color);
 
 }
@@ -152,8 +157,8 @@
 
 .top1 #xbar1 {
     position: absolute;
-    top: 2.5%;
-    right: 10%;
+    top: 3.7%;
+    right: 5%;
     font-size: 25px;
 
     z-index: 10;
@@ -164,19 +169,36 @@
         display: none;
     }
 
-    .popup_container1 {
-        left: 0%;
-        width: 100%;
+    .outer_heading .heading h1 {
+        font-size: 22px;
+    }
+
+    .left_container .links {
+        position: absolute;
+        font-size: 16px;
+        top: 3%;
+
+
+    }
+    .personal_info .Text {
+        font-size: 15px;
+    }
+
+    .personal_info h2 {
+        font-size: 15px;
+    }
+
+    .personal_info p {
+        font-size: 15px;
     }
 
     .top1 h1 {
         margin-right: 30px;
+        font-size: 22px;
     }
 
     .top1 #xbar1 {
-        font-size: 20px;
-        top: 2%;
-
+      top: 2.5%;
     }
 
     .video1 a {
@@ -189,25 +211,30 @@
     .right_container {
         display: none;
     }
+    .outer_heading .heading h1 {
+        font-size: 22px;
+    }
 
-    .popup_container1 {
-        left: 0%;
-        width: 100%;
+    .left_container .links {
+        position: absolute;
+        font-size: 16px;
+        top: 4%;
+
     }
 
     .top1 h1 {
+        font-size: 25px;
+        margin-top: 5.8%;
+
         margin-right: 30px;
     }
 
     .top1 #xbar1 {
-        font-size: 20px;
-        top: 2%;
+        font-size: 25px;
+        top:2.5%;
 
     }
 
-    .video1 a {
-        font-size: 15px;
-    }
 
 }
 
@@ -215,13 +242,37 @@
     .right_container {
         display: none;
     }
+    .outer_heading .heading h1 {
+        font-size: 27px;
+    }
+    .outer_heading .heading{
+        
+        justify-content: space-around;
+    }
+
+    .left_container .links {
+        position: absolute;
+        font-size: 16px;
+        top: 4%;
+
+    }
+    .top1 h1 {
+        font-size: 25px;
+        margin-top: 5.8%;
+
+        margin-right: 30px;
+    }
+    .top1 #xbar1 {
+         top:2.5%;
+
+    }
 
     .left_container {
         width: 320px;
     }
 
     .popup_container1 {
-        width: 100vw;
+        width: 100%;
         left: 0;
     }
 }
@@ -230,7 +281,31 @@
     .right_container {
         display: none;
     }
+    .outer_heading .heading h1 {
+        font-size: 27px;
+    }
+    .outer_heading .heading{
+        
+        justify-content: space-around;
+    }
+    .top1 h1 {
+        font-size: 25px;
+        margin-top: 5.8%;
 
+        margin-right: 30px;
+    }
+    .top1 #xbar1 {
+        font-size: 20px;
+        right: 20%;
+        margin-top: 1%;
+    }
+
+    .left_container .links {
+        position: absolute;
+        font-size: 16px;
+        top: 5%;
+
+    }
     #container {
         display: flex;
         justify-content: center;
@@ -240,12 +315,11 @@
         width: 100%;
 
     }
+    .top1 #xbar1 {
+        top:3%;
 
-    .popup_container1 {
-        width: 100%;
-        left: 0%;
-        backdrop-filter: blur(10px);
-    }
+   }
+
 
 }
 
@@ -253,11 +327,16 @@
     .top1 #xbar1 {
         top: 1.9%;
     }
+    .top1 h1 {
+        font-size: 25px;
+        margin-top: 5.8%;
 
-    .popup_container1 {
-        width: 26%;
-        left: .3%;
-        backdrop-filter: blur(10px);
+        margin-right: 30px;
     }
-}
+    .top1 #xbar1 {
+        font-size: 20px;
+        right: 6%;
+        margin-top: 5%;
+    }
 
+}

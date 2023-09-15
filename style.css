@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Glory&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Barlow:wght@500&family=Glory&family=Lobster&family=Maven+Pro:wght@500&family=Montserrat:wght@100&family=Phudu:wght@500&family=Roboto:wght@300&display=swap');
 
 :root {
     --pimary-color: aqua;
@@ -26,9 +26,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Barlow', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
-    
+    font-family: 'Roboto','san-serif';
+   
 }
 
 body {
@@ -110,10 +109,11 @@ body {
     display: flex;
     padding: 5px 0;
     position: sticky;
+
     top: 0%;
     color: var(--secondary-color);
 
-    z-index: 10;
+    /* z-index: 10; */
     width: 100%;
     background-color: rgba(0, 0, 0, 0.199);
 
@@ -124,10 +124,13 @@ body {
     /* border: 2px solid blue; */
 
 }
-
+.outer_heading .heading h1{
+    font-size: 25px;
+}
 .heading h1 {
+    /* font-size: 40px; */
     margin-left: 10px;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat';
 }
 
 .personal_info {
@@ -371,18 +374,17 @@ p {
 /* /////////////////////////////////////////////////////// */
 
 .popup_container {
-    height: 100vh;
-    width: 1000px;
+    height: 100%;
+    width: 100%;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    padding: 10px;
+    /* padding: 10px; */
     transform: scale(0);
     /* display: none; */
     position: absolute;
     top: 0%;
-    right: 1%;
- 
+    right: 0%;
  
 
 }
@@ -395,8 +397,8 @@ p {
    box-shadow: var(--border-color);
     overflow-y: scroll;
     scrollbar-width: none;
-    /* background-color: #00181b; */
- backdrop-filter: blur(20px);
+    background-color: #00181b;
+ /* backdrop-filter: blur(20px); */
 
 }
 .top{
@@ -549,11 +551,7 @@ p {
     .inside_container .Text{
         font-size:20px ;
     }
-   .popup_container{
-    width: 100%;
-    backdrop-filter: blur(10px);
-    left: .3%;
-   }
+  
    .top #xbar {
     font-size: 20px;
     top: 2.2%;
@@ -587,11 +585,7 @@ p {
 .first_data .video{
     width: 49%;
 }
-.popup_container{
-    width: 100%;
-    left: .25%;
-    backdrop-filter: blur(10px);
-}
+
 }
 @media screen and (min-width:1025px) and (max-width:1300px){
  .outer_heading .heading h1{
@@ -615,13 +609,9 @@ p {
   .personal_info p{
     font-size: 15px;
   }
-  .popup_container{
-    width: 74%;
-    right: .3%;
-    /* backdrop-filter: blur(5px); */
-  }
+  
   .top #xbar {
-    top: 1.9%;
+    top: 4%;
 }
  
 
