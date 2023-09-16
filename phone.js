@@ -25,14 +25,11 @@ function popUpHomeBtn1(){
             </div>
             <div class="videoInfo1">
                 <div class="paragraph1">
-                    <p>Introducing MovieTube, my first project, where I've created this site using HTML,
-                        CSS, and JS to bring a unique movie experience.
-
-
-                        With MovieTube, it's all about the trailers!
-                        And I created this website by fetching TMDB API.
-
-                        📱 And it is FullyResponsive to have a better experience</p>
+                    <p>
+                        Introducing MovieTube, my first project, where I've created this site using HTML,
+                        CSS, and JS to bring a unique movie experience. With MovieTube, it's all about the trailers!
+                        And I created this website by fetching TMDB API. And it is FullyResponsive to have a better experience
+                    </p>
                 </div>
 
 

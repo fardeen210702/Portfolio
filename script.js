@@ -1,3 +1,4 @@
+
 const menuIcon = document.querySelector('.heading i');
 const links = document.querySelector('.links');
 // const darkMode = document.querySelector('.darkmode');
@@ -107,3 +108,11 @@ popUPContainer.classList.remove('popUp')
 })
 
 }
+const resume = document.querySelector('.resume1')
+resume.addEventListener('click',()=>{
+    alert(' Resume yet to be Added')
+})
+const resume2 = document.querySelector('.resume2')
+resume2.addEventListener('click',()=>{
+    alert(' Resume yet to be Added')
+})
