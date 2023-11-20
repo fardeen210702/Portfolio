@@ -27,7 +27,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto','san-serif';
-   
+    text-decoration: none;   
 }
 
 body {
@@ -171,9 +171,9 @@ body {
 
 }
 
-.personal_info button {
+.personal_info .resume1 {
     width: 70%;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-size: large;
     border: none;
     outline: none;
@@ -332,9 +332,9 @@ p {
 
 }
 
-.inside_container button {
+.inside_container a {
     width: 30%;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-size: large;
     border: none;
     border: var(--border-outline);
